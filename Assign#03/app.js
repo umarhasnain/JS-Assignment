@@ -231,3 +231,89 @@
 
 //Task 2
 
+// var a = 1;
+//  var b = 2;
+
+//  var result = --a - --b + ++b + b--;
+//  //             1  - 0 + 1 + 1
+//  //             1 +  1  +  1
+//  //             3
+
+
+//  console.log(result)
+
+//  document.write("a is" + a + "<br>")
+//  document.write("b is" + b + "<br>")
+// document.write("result is" + result + "< br>")
+
+
+//Task 3
+
+// var user = prompt("Enter Your UserName");
+// document.write(user)
+
+//Task 4
+
+// var user = prompt("Enter Your UserName");
+
+
+// if(user === ""){
+//     document.write(5 +'x' + 1 + "=" + 5 * 1 + "<br> ")
+// document.write(5 +'x' + 2 + "=" + 5 * 2 + "<br> ")
+// document.write(5 +'x' + 3 + "=" + 5 * 3 + "<br> ")
+// document.write(5 +'x' + 4 + "=" + 5 * 4 + "<br> ")
+// document.write(5 +'x' + 5 + "=" + 5 * 5 + "<br> ")
+// document.write(5 +'x' + 6 + "=" + 5 * 6 + "<br> ")
+// document.write(5 +'x' + 7 + "=" + 5 * 7 + "<br> ")
+// document.write(5 +'x' + 8 + "=" + 5 * 8 + "<br> ")
+// document.write(5 +'x' + 9 + "=" + 5 * 9 + "<br> ")
+// document.write(5 +'x' + 10 + "=" + 5 * 10 + "<br>")
+// }else{
+//     document.write(user +'x' + 1 + "=" + user * 1 + "<br> ")
+// document.write(user +'x' + 2 + "=" + user * 2 + "<br> ")
+// document.write(user +'x' + 3 + "=" + user * 3 + "<br> ")
+// document.write(user +'x' + 4 + "=" + user * 4 + "<br> ")
+// document.write(user +'x' + 5 + "=" + user * 5 + "<br> ")
+// document.write(user +'x' + 6 + "=" + user * 6 + "<br> ")
+// document.write(user +'x' + 7 + "=" + user * 7 + "<br> ")
+// document.write(user +'x' + 8 + "=" + user * 8 + "<br> ")
+// document.write(user +'x' + 9 + "=" + user * 9 + "<br> ")
+// document.write(user +'x' + 10 + "=" + user * 10 + "<br>")
+// }
+
+
+
+// //Task 5
+// var sub1 = prompt("Enter Subject Name 1");
+// var sub2 = prompt("Enter Subject Name 2");
+// var sub3 = prompt("Enter Subject Name 3");
+
+// var total_marks = 100;
+// var sub_total = 300;
+
+// var obtained_marks1 = +prompt("Enter Obtained Marks "+ sub1 );
+// var obtained_marks2 = +prompt("Enter Obtained Marks "+ sub2);
+// var obtained_marks3 = +prompt("Enter Obtained Marks "+ sub3);
+
+// var total_obtained1 =  obtained_marks1 + obtained_marks2 
+// console.log(total_obtained1)
+// var total_obtained = total_obtained1 + obtained_marks3
+// console.log(total_obtained)
+
+// var per1 = (obtained_marks1 / total_marks) * 100
+// var per2 = (obtained_marks2 / total_marks) * 100
+// var per3 = (obtained_marks3 / total_marks) * 100
+// var per = (total_obtained / sub_total) * 100
+// console.log(per)
+
+// document.write("<h2>" + "Subject " + "Total Marks " + "Obtained Marks " + "Percentage " + "</h2>" + 
+// "<br>" + sub1 + " " +  total_marks + " " + obtained_marks1 + " " + per1+"%"+
+// "<br>"+ sub2 + " " +  total_marks + " " + obtained_marks2 + " " + per2 +"%"+
+//  "<br>"+sub3 + " " +  total_marks + " " + obtained_marks3 + " " +  per3 +"%" +
+//  "<br>"+ sub_total + " " +  total_obtained + " " +  per +"%")
+
+
+// EXTRA CODE
+// document.write("<h2>" + "" + "</h2>" + "<br>"+total_marks+"<br>"+ total_marks +"<br>"+ total_marks);
+// document.write("<h2>" + "" + "</h2>" + "<br>"+obtained_marks1+"<br>"+ obtained_marks2+"<br>"+ obtained_marks3 + "<br>"+ total_obtained);
+// document.write("<h2>" + "" + "</h2>" + "<br>"+per1+"<br>"+ per2+"<br>"+ per3 + "<br>"+per);
